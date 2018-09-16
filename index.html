@@ -5,46 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>All About Me</title>
-    <link type="text/css" rel="stylesheet" href="resources/css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="./resources/css/bootstrap.min.css"/>
 </head>
-<body style="background-image:url('resources/image/BackgroundImage.jpg')">
-    <table style="width: 100%;" cellpadding="0px" cellspacing="0px">
-        <tr>
-            <td class="td1">
-                <img class="img1" src="resources/image/TEKSystemsLogo.png" height="30"/>
-            </td>
+<body style="background-image:url('./resources/image/BackgroundImage.jpg')">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 text-center">
+                <img class="img-fluid w-50 mt-2" src="./resources/image/TEKSystemsLogo.png">
+            </div>
 
-            <td class="td2">
-                <h1>Portfolio of Dylan Fellows</h1>
-            </td>
+            <div class="col-4 text-center">
+                <h1 class="mt-2">Portfolio of Dylan Fellows</h1>
+            </div>
 
-            <td class="td3">
-                <img class="img2" src="resources/image/TEKSystemsLogo.png" height="30"/>
-            </td>
+            <div class="col-4 text-center">
+                <img class="img-fluid w-50 mt-2" src="./resources/image/TEKSystemsLogo.png"/>
+            </div>
     
-        </tr>   
-    </table>
+        </div>   
+    
     
 
-    <div class="menu">
-        <a href="index.html">About</a>&nbsp;
-        <a href="Contact.html">Contact</a>&nbsp;
-        <a href="Gallery.html">Gallery</a>&nbsp;
+    <div class="row">
+        <div class="col-12 text-center">
+            <a href="index.html">About</a>&nbsp;
+            <a href="Contact.html">Contact</a>&nbsp;
+            <a href="Gallery.html">Gallery</a>&nbsp;
+        </div>
     </div>
     <hr>
 
 
-    <div id="leftDiv">
-            <img id="profilePic" src="resources/image/PhotoOfMe.jpg" alt="Picture of Me"/>
-    </div>
-    <div id="rightDiv" >
+    <div class="row">
+        <div class="col-4"><img class="img-fluid" src="./resources/image/PhotoOfMe.jpg" alt="Picture of Me"/></div>
 
-                <p class="About">My name is Dylan M. Fellows and I am 20 years old. I grew up in the southern boot heel of Missouri and then moved to St. Louis in my later years. 
+            <p class="col-8">My name is Dylan M. Fellows and I am 20 years old. I grew up in the southern boot heel of Missouri and then moved to St. Louis in my later years. 
                     I am a STL Cardinals fan, so I basiclaly lived in Busch Stadium for a majority of my childhood. I love Lambert's and Imo's pizza. 
                     I am a Computer Science Major, with a minor in Mathematics. I attended UMSL for 1 year and SWIC for 2 years. 
-                    I have a totaly of 32 college credits completed, and I plan on continuing on and getting my Master's degree. I am versed in Java, Javascript, HTML, CSS, Json, AJAX, mySQL, and MongoDB.</p>
-
+                    I have a totaly of 32 college credits completed, and I plan on continuing on and getting my Master's degree. I am versed in Java, Javascript, HTML, CSS, Json, AJAX, mySQL, and MongoDB.
+            </p>
     </div>
-
+    </div>
 </body>
 </html>
