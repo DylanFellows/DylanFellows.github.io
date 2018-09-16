@@ -1,22 +1,5 @@
-h1 {
-    color: cyan;
-    text-align: center;
-    background-image: url('../image/BackgroundImage.jpg');
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
-tr {
-    background-image: url('../image/BackgroundImage.jpg');
-}
-
-h2 {
-    color: blue;
-    text-align: center;
-}
-
 h3 {
-    color: rgb(0, 0, 0);
+    color: cyan;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -31,7 +14,7 @@ a:link {
 }
 
 a:visited {
-    color: yellow;
+    color: red;
     background-color: transparent;
     text-decoration: none;
 }
@@ -51,40 +34,6 @@ a:active {
 .a2 {
     border: 1px solid black;
     margin-top: 10px;
-}
-
-.About {
-    margin-left: 150px;
-    color: white;
-    font-size: 1.2em;
-    vertical-align: top;
-    margin-top: 0px;
-    padding-top: 0px;
-    text-align: justify;
-    width: 70%;
-    float: left;
-}
-
-.td1 {
-    vertical-align: middle;
-    text-align: center;
-}
-
-.td2 {
-    vertical-align: middle;
-}
-
-.td3 {
-    vertical-align: middle;
-    text-align: center;
-}
-
-.img1 {
-    margin-top: 30px;
-}
-
-.img2 {
-    margin-top: 30px; 
 }
 
 .menu {
@@ -110,26 +59,6 @@ a:active {
 .grid-container > div {
     text-align: center;
     font-size: 30px;
-}
-
-#leftDiv {
-    float: left;
-    width: 16%;
-    position: relative;
-}
-
-#rightDiv {
-    width: 75%;
-    position: relative;
-    float:left;
-    left: 100px;
-    margin-top: 20px;
-}
-
-#profilePic {
-    width: 98%;
-    float: left;
-    margin-left: 175px;
 }
 
 #contactInfo {

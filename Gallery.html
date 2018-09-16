@@ -4,44 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Gallery</title>
+    <link type="text/css" rel="stylesheet" href="resources/css/bootstrap.min.css"/>
     <link type="text/css" rel="stylesheet" href="resources/css/style.css"/>
 </head>
-<body style="background-image:url('resources/image/BackgroundImage.jpg')">
-    <table style="width: 100%;" cellpadding="0px" cellspacing="0px">
-            <tr>
-                <td class="td1">
-                    <img class="img1" src="resources/image/TEKSystemsLogo.png" height="30"/>
-                </td>
+<body style="background-image:url('./resources/image/BackgroundImage.jpg')">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 text-center">
+                <img class="img-fluid w-50 mt-2" src="./resources/image/TEKSystemsLogo.png">
+            </div>
     
-                <td class="td2">
-                    <h1>Portfolio of Dylan Fellows</h1>
-                </td>
+            <div class="col-4 text-center">
+                <h1 class="mt-2 text-white">Portfolio of Dylan Fellows</h1>
+            </div>
     
-                <td class="td3">
-                    <img class="img2" src="resources/image/TEKSystemsLogo.png" height="30"/>
-                </td>
+            <div class="col-4 text-center">
+                <img class="img-fluid w-50 mt-2" src="./resources/image/TEKSystemsLogo.png"/>
+            </div>
         
-            </tr>   
-        </table>
+        </div>  
+        <div class="row">
+                <div class="col-12 text-center">
+                    <a href="index.html">About</a>&nbsp;
+                    <a href="Contact.html">Contact</a>&nbsp;
+                    <a href="Gallery.html">Gallery</a>&nbsp;
+                </div>
+            </div>
 
-    <div class="menu">
-        <a href="index.html">About</a>&nbsp;
-        <a href="Contact.html">Contact</a>&nbsp;
-        <a href="Gallery.html">Gallery</a>&nbsp;
-    </div>
+        <hr>
 
-    <hr>
-
-    <div class="grid-container">
-        <div><img id="placeholder1" src="resources/image/Airplane.jpg" alt="Airplane"></div>
-        <div><img id="placeholder2" src="resources/image/Earphones.jpg" alt="Earphones"></div>
-        <div><img id="placeholder3" src="resources/image/GlobalTech.jpg" alt="Tech"></div>  
-        <div><img id="placeholder4" src="resources/image/LEDtv.jpg" alt="TV"></div>
-        <div><img id="placeholder5" src="resources/image/Playground.jpg" alt="Playground"></div>
-    </div>
+        <div class="grid-container">
+            <div><img id="placeholder1" src="resources/image/Airplane.jpg" alt="Airplane"></div>
+            <div><img id="placeholder2" src="resources/image/Earphones.jpg" alt="Earphones"></div>
+            <div><img id="placeholder3" src="resources/image/GlobalTech.jpg" alt="Tech"></div>  
+            <div><img id="placeholder4" src="resources/image/LEDtv.jpg" alt="TV"></div>
+            <div><img id="placeholder5" src="resources/image/Playground.jpg" alt="Playground"></div>
+        </div>
           
 
-
+    </div>
 </body>
 </html>
